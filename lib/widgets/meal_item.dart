@@ -5,7 +5,7 @@ import 'package:meals/models/meal.dart';
 import 'package:meals/widgets/meal_item_trait.dart';
 
 class MealItem extends StatelessWidget {
-  MealItem({super.key, required this.meal, required this.onSelectMeal});
+  const MealItem({super.key, required this.meal, required this.onSelectMeal});
 
   final Meal meal;
   final void Function(BuildContext context, Meal meal) onSelectMeal;
